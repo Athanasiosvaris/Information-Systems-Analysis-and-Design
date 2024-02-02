@@ -1,6 +1,5 @@
 # Comparison between Python Scaling Frameworks for Big Data Analysis and ML
-Term project for the course 'Information-Systems-Analysis-and-Design' during 9th semester at NTUA
-s  
+Term project for the course 'Information-Systems-Analysis-and-Design' during 9th semester at NTUA in school of Electrical and Computer Engeneering under the supervision of Professor Dimitrios Tsoumakos.
 # Introduction
 This project involves comparing two prominent Python scaling frameworks, Ray and Dask, for big data analysis and machine learning tasks. Ray and Dask are open-source frameworks designed to facilitate the parallel execution of Python code for distributed computing tasks. This comparison aims to evaluate their performance, scalability, and ease of use in handling large-scale data analytics and ML workloads.
 
@@ -31,3 +30,8 @@ You need to follow the following steps in order to run the python scripts :
       III)  Connect to the cluster with a worker node using the <i>ray start --address='ip_address:port'</i>.
       IV)   Run the <b>.py</b> file.
 7. For clustering follow the same steps in the clustering folder.
+
+
+# Team Members
+[Your Name]
+[Your Teammate's Name]
