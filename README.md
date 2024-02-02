@@ -13,5 +13,15 @@ You need to follow the following steps in order to run the python scripts :
 4. Install all the necessary libraries.
 5. Insert only in <b>master</b> node Ray and Dask folders of this repository.
 6. For <b> classification</b> : Create test data using <b>datagen.py</b> function: python3 datagen.py --num_samples <num_samples> --num_features <features>
-   a) <b>Dask<b>: We use <i>dask scheduler<i>
-   
+   a) <b>Dask</b>:
+      I)    Convert the data.libsvm file to CSV file using the <i>convert_libsvm_to_csv</i>.
+      II)   Use <i>dask scheduler</i> to initiate the Dask cluster.
+      III)  Connect to the worker VMs.
+      IV)   Use <i>dask worker tcp://<ip_address:port></i> to connect to the cluster as a worker.
+      V)    Run the <b>.py</b> file.
+   b) <b>Ray 
+      I)    Move the <i>data.libsvm</i> file to the <i>ray</i> folder
+      II)   Initiate the cluster with <i>ray start --head --dashboard-host "0.0.0.0"</i>.
+      III)  Connect to the cluster with a worker node using the <i>ray start --address='ip_address:port'</i>.
+      IV)   Run the <b>.py</b> file.
+7. For clustering follow the same steps in the clustering folder.
