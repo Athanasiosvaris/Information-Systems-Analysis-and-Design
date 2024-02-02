@@ -1,4 +1,4 @@
-# Information-Systems-Analysis-and-Design
+# Comparison between Python Scaling Frameworks for Big Data Analysis and ML
 Term project for the course 'Information-Systems-Analysis-and-Design' during 9th semester at NTUA
 # Contributors 
 1.Athanasios Varis  
