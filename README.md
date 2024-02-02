@@ -1,4 +1,4 @@
-# Comparison between Python Scaling Frameworks for Big Data Analysis and ML
+# Comparison between Python Scaling Frameworks for Big Data Analysis and Machine Learning
 
 Term project for the course 'Information-Systems-Analysis-and-Design' during the 9th semester at NTUA in the School of Electrical and Computer Engineering under the supervision of Professor Dimitrios Tsoumakos.
 
