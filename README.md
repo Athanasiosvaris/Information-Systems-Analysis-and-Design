@@ -21,22 +21,26 @@ You need to follow the following steps in order to run the python scripts :
 
     a) <b>Dask</b>:
    
-      I)    Convert the data.libsvm file to CSV file using the <i>convert_libsvm_to_csv</i>.
+          I)    Convert the data.libsvm file to CSV file using the <i>convert_libsvm_to_csv</i>.
    
-      II)   Use <i>dask scheduler</i> to initiate the Dask cluster.
+          II)   Use <i>dask scheduler</i> to initiate the Dask cluster.
    
-      III)  Connect to the worker VMs.
+          III)  Connect to the worker VMs.
    
-      IV)   Use <i>dask worker tcp://<ip_address:port></i> to connect to the cluster as a worker.
+          IV)   Use <i>dask worker tcp://<ip_address:port></i> to connect to the cluster as a worker.
    
-      V)    Run the <b>.py</b> file.
+          V)    Run the <b>.py</b> file.
    
    b) <b>Ray</b>
    
-      I)    Move the <i>data.libsvm</i> file to the <i>ray</i> folder
-      II)   Initiate the cluster with <i>ray start --head --dashboard-host "0.0.0.0"</i>.
-      III)  Connect to the cluster with a worker node using the <i>ray start --address='ip_address:port'</i>.
-      IV)   Run the <b>.py</b> file.
+          I)    Move the <i>data.libsvm</i> file to the <i>ray</i> folder
+   
+          II)   Initiate the cluster with <i>ray start --head --dashboard-host "0.0.0.0"</i>.
+   
+          III)  Connect to the cluster with a worker node using the <i>ray start --address='ip_address:port'</i>.
+   
+          IV)   Run the <b>.py</b> file.
+   
 8. For clustering follow the same steps in the clustering folder.
 
 
