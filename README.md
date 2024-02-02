@@ -13,5 +13,5 @@ You need to follow the following steps in order to run the python scripts :
 4. Install all the necessary libraries.
 5. Insert only in <b>master</b> node Ray and Dask folders of this repository.
 6. For <b> classification</b> :
-   a)Create test data using <b>datagen.py</b> function:
+   a)Create test data using <b>datagen.py</b> function: python3 datagen.py --num_samples <num_samples> --num_features <features>
    b)
