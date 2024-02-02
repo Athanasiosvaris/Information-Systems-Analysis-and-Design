@@ -93,8 +93,8 @@ To run the Python scripts, follow these steps:
 4. **Classification:**
    - For Dask:
      - Convert the `data.libsvm` file to a CSV file using the `convert_libsvm_to_csv` function.
-     - Use Dask scheduler to initiate the Dask cluster.
-     - Connect to the worker VMs.
+     - Use `Dask scheduler` to initiate the Dask cluster.
+     - Connect to the worker VMs and run `dask worker tcp://<ip_address:port>`
      - Run the `.py` file.
 
    - For Ray:
