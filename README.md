@@ -45,5 +45,9 @@ You need to follow the following steps in order to run the python scripts :
 
 
 # Team Members
-[Your Name]
-[Your Teammate's Name]
+
+Athanasios Varis
+
+Georgios Vlachopoulos
+
+Ioannis Nikiforidis
