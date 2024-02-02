@@ -46,8 +46,8 @@ You need to follow the following steps in order to run the python scripts :
 
 # Team Members
 
-Athanasios Varis
+<b><i>Athanasios Varis
 
 Georgios Vlachopoulos
 
-Ioannis Nikiforidis
+Ioannis Nikiforidis</i></b>
