@@ -4,6 +4,12 @@ s
 # Introduction
 This project involves comparing two prominent Python scaling frameworks, Ray and Dask, for big data analysis and machine learning tasks. Ray and Dask are open-source frameworks designed to facilitate the parallel execution of Python code for distributed computing tasks. This comparison aims to evaluate their performance, scalability, and ease of use in handling large-scale data analytics and ML workloads.
 
+# Project Objectives
+1. Installation and Setup: Successfully install and configure Ray and Dask frameworks on local or cloud-based resources.
+2. Data Loading and Preprocessing: Generate or acquire real-world datasets and load them into Ray and Dask for analysis. Perform necessary preprocessing steps to prepare the data for analysis.
+3. Performance Measurement: Develop a suite of Python scripts to benchmark the performance of Ray and Dask across various data processing and ML tasks. Evaluate their scalability and efficiency under different workload scenarios.
+4. Comparison Analysis: Analyze and compare the performance, scalability, and ease of use of Ray and Dask based on the results obtained from the performance measurement phase. Identify the strengths and weaknesses of each framework for      different types of tasks and workloads.
+
 # Project Steps
 You need to follow the following steps in order to run the python scripts :  
 
@@ -19,7 +25,7 @@ You need to follow the following steps in order to run the python scripts :
       III)  Connect to the worker VMs.
       IV)   Use <i>dask worker tcp://<ip_address:port></i> to connect to the cluster as a worker.
       V)    Run the <b>.py</b> file.
-   b) <b>Ray 
+   b) <b>Ray</b> 
       I)    Move the <i>data.libsvm</i> file to the <i>ray</i> folder
       II)   Initiate the cluster with <i>ray start --head --dashboard-host "0.0.0.0"</i>.
       III)  Connect to the cluster with a worker node using the <i>ray start --address='ip_address:port'</i>.
